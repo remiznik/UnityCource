@@ -23,6 +23,7 @@ public class ObjectDestroyer : MonoBehaviour
         if (transform.position.z < bottomZLimit)
         {
             Destroy(gameObject);
+            Debug.Log("Game Over");
         }
     }
 }
